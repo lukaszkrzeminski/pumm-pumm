@@ -42,6 +42,7 @@
 }
 
 .header__icons-container{
+    width: 69px;
     margin: 26px 0 27px auto;
     display: flex;
     align-items: center;
