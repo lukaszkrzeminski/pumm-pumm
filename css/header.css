@@ -54,4 +54,5 @@
 .header__icon{
     margin: 2.75px;
     height: 22px;
+    cursor: pointer;
 }
