@@ -24,9 +24,11 @@
 }
 .header__nav-link:hover{
     filter: brightness(110%);
+    text-decoration: underline;
 }
 .header__nav-link:active{
     filter: brightness(120%);
+    text-decoration: underline;
 }
 
 .header__nav-link--active{
