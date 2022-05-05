@@ -1,0 +1,9 @@
+.image__container{
+    display: flex;
+}
+
+.image__main{
+    margin: 0;
+    width: 50%;
+    max-width: 720px;
+}
