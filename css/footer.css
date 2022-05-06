@@ -1,0 +1,99 @@
+.footer_content{
+    margin: 44px 37px 44px 46px;
+    display: flex;
+}
+
+.form__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__title{
+    font-size: 16px;
+    line-height: 140%;
+    color: #292C35;
+}
+
+.form{
+    margin: 18px 0 14px;
+}
+
+.form__input{
+    border: 1px solid #D8D8D8;
+    border-radius: 40px;
+    background-color: #FFF;
+    padding: 9px 16px;
+}
+
+.form__button{
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFF;
+    background-color: #FF7144;
+    padding: 12px 21px;
+    margin: 10px 0;
+    border-radius: 27px;
+    border: none;
+    cursor: pointer;
+}
+
+.form__button:hover{
+    filter: brightness(110%);
+    text-decoration: underline;
+}
+
+.form__button:active{
+    filter: brightness(120%);
+    text-decoration: underline;
+}
+
+.form__additional-text{
+    font-size: 14px;
+    opacity: 0.6;
+    line-height: 140%;
+}
+
+.links-list{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 121px;
+}
+
+.links-list__title{
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 140%;
+    color: #292C35;
+}
+
+.links-list__item{
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 15px;
+    color: #292C35;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.socials{
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+    display: flex;
+}
+
+.socials__icon{
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.footer__logo{
+    text-align: center;
+}
+
+.footer__copyright{
+    font-size: 14px;
+    line-height: 140%;
+    color: #CCC8C2;
+    margin: 10px 42px;
+}
