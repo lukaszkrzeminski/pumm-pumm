@@ -1,0 +1,27 @@
+.companies__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 54px 0 53px;
+}
+
+.companies__title{
+    font-size: 18px;
+    line-height: 120%;
+    color: #292C35;
+    margin-top: 28px;
+}
+
+.companies__list{
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companies__logo{
+    margin-right: 98px;
+}
