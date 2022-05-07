@@ -18,6 +18,7 @@
     <link href="./css/main.css" rel="stylesheet">
     <link href="./css/companies.css" rel="stylesheet">
     <link href="./css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
@@ -165,8 +166,13 @@
         <div class="footer_content">
             <div class="form__container">
                 <span class="form__title">Join our mailing list</span>
-                <form class="form">
-                    <input type="email" class="form__input" placeholder="Enter Your Email" />
+                <form class="form js-form">
+                    <input 
+                    type="email" 
+                    class="form__input js-form-input" 
+                    placeholder="Enter Your Email" 
+                    required
+                    oninvalid="this.setCustomValidity('Enter your e-mail in right format: name@domain.tld')" />
                     <button type="submit" class="form__button">SUBSCRIBE</button>
                 </form>
                 <span class="form__additional-text">By subscribing, i accept the terms & conditions.</span>
