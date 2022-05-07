@@ -80,18 +80,18 @@
         <h2 class="design__title">Construye tu sofá perfecto. Modifícalo <br />como quieras. Empieza con...</h2>
         <div class="design__list-container">
             <p class="design__list-title">Elige tu color</p>
-            <ul class="design__list">
+            <ul class="design__list js-design-list">
                 <li class="design__list-item">
-                    <div class="design__list-circle design__list-circle--green design__list-circle--active"></div>
+                    <button class="design__list-circle design__list-circle--green design__list-circle--active"></button>
                 </li>
                 <li class="design__list-item">
-                    <div class="design__list-circle design__list-circle--blue"></div>
+                    <button class="design__list-circle design__list-circle--blue"></button>
                 </li>
                 <li class="design__list-item">
-                    <div class="design__list-circle design__list-circle--lightblue"></div>
+                    <button class="design__list-circle design__list-circle--lightblue"></button>
                 </li>
                 <li class="design__list-item">
-                    <div class="design__list-circle design__list-circle--grey"></div>
+                    <button class="design__list-circle design__list-circle--grey"></button>
                 </li>
             </ul>
             <button class="design__button">Compra ahora</button>
@@ -167,12 +167,8 @@
             <div class="form__container">
                 <span class="form__title">Join our mailing list</span>
                 <form class="form js-form">
-                    <input 
-                    type="email" 
-                    class="form__input js-form-input" 
-                    placeholder="Enter Your Email" 
-                    required
-                    oninvalid="this.setCustomValidity('Enter your e-mail in right format: name@domain.tld')" />
+                    <input type="email" class="form__input js-form-input" placeholder="Enter Your Email" required
+                        oninvalid="this.setCustomValidity('Enter your e-mail in right format: name@domain.tld')" />
                     <button type="submit" class="form__button">SUBSCRIBE</button>
                 </form>
                 <span class="form__additional-text">By subscribing, i accept the terms & conditions.</span>
