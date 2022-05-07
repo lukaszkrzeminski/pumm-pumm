@@ -11,7 +11,6 @@
         const images = imageList.querySelectorAll(".design__grid-item-image");
         for (const image of images){
             image.getSVGDocument().getElementById("changeColor").setAttribute("fill", color);
-            console.log(image);
         }
     }
 
