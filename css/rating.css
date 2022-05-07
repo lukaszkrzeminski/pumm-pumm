@@ -27,3 +27,13 @@
         width: 100%;
     }
 }
+
+@media (max-width: 767px){
+    .rating__title{
+        text-align: center;
+    }
+    .rating__image{
+        margin-top: 30px;
+        width: 100%;
+    }
+}

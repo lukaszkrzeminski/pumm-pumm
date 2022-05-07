@@ -119,6 +119,21 @@
     }
 }
 
+@media (max-width: 767px){
+    .links-list{
+        margin: 3px 0 0 40px;
+        flex-grow: 1;
+    }
+    .socials{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .footer__logo-image{
+        transform: scale(0.4);
+    }
+
+}
+
 @media (max-width: 320px){
     .footer_content{
         margin: 10px 15px 30px;

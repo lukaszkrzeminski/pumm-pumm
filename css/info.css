@@ -77,7 +77,19 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 80%;
+    }
+}
+
+@media (max-width: 767px){
+    .info__container{
+        margin: 40px 15px;
+    }
+
+    .info__image-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
     }
 }
 
