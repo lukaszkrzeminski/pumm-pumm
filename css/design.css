@@ -164,3 +164,41 @@
                              "b b";
     }
 }
+
+@media (max-width: 320px){
+    .design__container{
+        margin: 0 5px 30px;
+    }
+    .design__title{
+        font-size: 30px;
+        line-height: 110%;
+    }
+    .design__list-container{
+        justify-content: space-between;
+    }
+    .design__list-title{
+        font-size: 8px;
+        line-height: 110%;
+        text-align: center;
+    }
+    .design__list-circle{
+        margin: 5px;
+    }
+    .design__button{
+        font-size: 10px;
+        line-height: 11px;
+        padding: 6px 16px;
+        margin: 5px 0;
+    }
+    .design__grid-item{
+        transform: scale(0.6);
+    }
+    .design__grid{
+        justify-content: center;
+        grid-template-areas: "s1"
+                             "s2"
+                             "s3"
+                             "s4"
+                             "b";
+    }
+}

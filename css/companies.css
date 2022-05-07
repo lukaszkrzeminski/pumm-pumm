@@ -31,3 +31,16 @@
         margin-right: 45px;
     }
 }
+
+@media (max-width: 1024px){
+    .companies__list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .companies__title{
+        font-size: 12px;
+    }
+    .companies__logo{
+        margin: 5px 15px;
+    }
+}

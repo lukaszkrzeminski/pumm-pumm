@@ -109,3 +109,34 @@
         transform: scale(0.6);
     }
 }
+
+@media (max-width: 320px){
+    .footer_content{
+        margin: 10px 15px 30px;
+        flex-direction: column;
+    }
+    .form__container{
+        align-items: center;
+        margin: 0 0 30px;
+    }
+    .form{
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo-image{
+        transform: scale(0.2);
+    }
+    .links-list{
+        margin: 0;
+    }
+    .socials{
+        margin: 0;
+        justify-content: center;
+    }
+    .footer__copyright{
+        font-size: 8px;
+        line-height: 110%;
+    }
+}

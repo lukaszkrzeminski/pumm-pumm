@@ -28,3 +28,12 @@
         left: 100vw;
     }
 }
+
+@media (max-width: 320px){
+    .main__container{
+        height: 180px;
+    }
+    .main__text-loop{
+        font-size: 40px;
+    }
+}

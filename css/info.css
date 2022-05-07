@@ -80,3 +80,31 @@
         width: 80%;
     }
 }
+
+@media (max-width: 320px){
+    .info__container{
+        margin: 33px 10px;
+    }
+    .info__title{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+    .info__button{
+        font-size: 10px;
+        line-height: 12px;
+        padding: 8px 20px;
+        border-radius: 27px;
+    }
+    .info__content-container{
+        width: 100%;
+    }
+    .info__image-container{
+        flex-direction: column;
+    }
+    .info__tile{
+        margin: 3px 3px;
+        transform: scale(0.7);
+    }
+}
