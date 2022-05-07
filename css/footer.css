@@ -91,11 +91,20 @@
     text-align: center;
 }
 
-.footer__copyright{
+.footer__copyright-content{
+    display: flex;
     font-size: 14px;
     line-height: 140%;
     color: #CCC8C2;
     margin: 10px 42px;
+}
+.footer__copyright{
+    margin-right: auto;
+}
+
+.footer__terms{
+    margin: 0 50px;
+    cursor: pointer;
 }
 
 @media (max-width: 1024px){
