@@ -25,3 +25,9 @@
 .companies__logo{
     margin-right: 98px;
 }
+
+@media (max-width: 1024px){
+    .companies__logo{
+        margin-right: 45px;
+    }
+}

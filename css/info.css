@@ -68,3 +68,15 @@
     color:#292C35;
     opacity: 0.7;
 }
+
+@media (max-width: 1024px){
+    .info__container{
+        flex-direction: column;
+    }
+    .info__content-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+    }
+}
