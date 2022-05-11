@@ -57,7 +57,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 320px){
+@media (max-width: 767px){
     .header{
         padding: 10px 10px;
         justify-content: space-around;

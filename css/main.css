@@ -29,20 +29,11 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 767px){
     .main__container{
         height: 180px;
     }
     .main__text-loop{
         font-size: 40px;
-    }
-}
-
-@media (max-width: 767px){
-    .main__container{
-        height: 480px;
-    }
-    .main__text-loop{
-        font-size: 60px;
     }
 }
